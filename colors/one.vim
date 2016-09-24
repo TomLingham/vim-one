@@ -529,6 +529,12 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('jsTemplateVar',          s:hue_4,   '', '')
   call <sid>X('jsThis',                 s:hue_5,   '', '')
   call <sid>X('jsUndefined',            s:hue_6,   '', '')
+  call <sid>X('jsImportContainer',      s:hue_5,   '', '')
+  call <sid>X('jsModuleGroup',          s:hue_5,   '', '')
+  call <sid>X('jsFuncArgs',             s:hue_5,   '', '')
+  call <sid>X('jsObjectKey',            s:hue_4,   '', '')
+  call <sid>X('jsFuncArgExpression',    s:hue_5,   '', '')
+  call <sid>X('jsFuncArgOperator',      s:hue_3,   '', '')
   " https://github.com/othree/yajs.vim
   call <sid>X('javascriptArrowFunc',    s:hue_3,   '', '')
   call <sid>X('javascriptClassExtends', s:hue_3,   '', '')
@@ -686,7 +692,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('rustCommentBlockDoc',      s:mono_3,    '', '')
   call <sid>X('rustCommentBlockDocError', s:mono_3,    '', '')
 " }}}
-  
+
   " Delete functions =========================================================={{{
   delf <SID>X
   delf <SID>rgb
